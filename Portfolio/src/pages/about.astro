@@ -1,0 +1,132 @@
+---
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About | Joe Derrett" description="About Joe Derrett">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Originally from Scarborough, North Yorkshire, my programming journey began at a young age experimenting with python.
+						My biggest jump however has been at Newcastle University with their intergrated Masters in Games Engineering.
+						It is here where I have made bounds of progress. 
+						Whilst initially only experienced with Unity, I have now become a solid C++ developer with a deep understanding of OpenGL Graphics,
+						Jolt Physics and current dabbling into cross-platform development (PS5).
+					</p>
+					<p>
+						Outside of University, I've been lucky to gain a good amount of work experience. For instance, team-work was a core part of my time working for <a href="https://walkersshop.com/">
+						Walkers Euronics</a> as a delivery assisstant. This tested and developed my skills in performing tasks in a safe and timely fashion. Time working behind the bars of Scarborough Open Air Theatre
+						also greatly improved my communication and multitasking skills. Strong communication with the bar-backs was imperative to ensure they knew my stock levels whilst I served drinks.
+					</p>
+					<p>
+						For fun, I have picked up a wide range of hobbies. When I am home in Scarborough, I participate in Scarborough Games Society, a local board gaming group. I enjoy 
+						both regular board games and casual games of Warhammer 40k (I collect Orks and Emperors Children). Another hobby of mine is video games, especially PC gaming. My desktop PC was custom built
+						by myself and it can be very fun to push it to see how far it can go.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p><b>Newcastle University:</b></p>
+					<div class = "content">
+						<p style="margin-left: 15px;">MCOMP Games Engineering: In-Progress</p>
+						<p style="margin-left: 15px;"> Computer Science (Games Engineering): First </p>
+					</div>
+				</div>
+				<div class = "content">
+					<p><b>Scarborough Sixth Form:</b></p>
+					<div class = "content">
+						<p style="margin-left: 15px;"> A-Level Maths: A</p>
+						<p style="margin-left: 15px;"> AS-Level Further Maths: A</p>
+						<p style="margin-left: 15px;"> A-Level Computer Science: A</p>
+						<p style="margin-left: 15px;"> A-Level History: B</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>C++, OpenGL,	Unity/ C#</p>
+					<p>Python, Flask, Java, PySpark</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
