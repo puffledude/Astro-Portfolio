@@ -37,3 +37,6 @@ to ensure I keep on track.
 - Playtest: When making a game, don't wait to playtest. Test things as frequently as you can with other people. <br>
 - Scope Creep: When making games start small and work up from a solid base. If I realised I didn't have as much time as I thought,
 I probably wouldn't have gone about designing the game the way I did. E.g Set levels instead of randomised or simpler combat.
+
+### Links:
+<a href="https://drive.google.com/file/d/15bvqeF9LHzck9vFijJtKDcvTj2oxqvnI/view?usp=sharing"> Dissertation project files</a>
