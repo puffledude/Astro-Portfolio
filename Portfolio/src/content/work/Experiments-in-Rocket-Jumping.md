@@ -34,3 +34,4 @@ larger than they needed to be. My takeaway from this was to focus on quality ove
 ### Links:
 Repository including original project files: <br> 
 <a href="https://drive.google.com/file/d/1YfIeV2vwaOtXMjuE-vZ3XJlv4o_KFtEk/view?usp=sharing">Project Files</a>
+<br> If you wish to try the game, it is best experienced built using the build preset in the repo.
