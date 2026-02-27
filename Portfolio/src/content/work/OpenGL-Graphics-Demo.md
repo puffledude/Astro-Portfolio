@@ -1,6 +1,6 @@
 ---
 title: OpenGL Graphics demo.
-publishDate: 2019-12-01 00:00:00
+publishDate: 2025-11-15 00:00:00
 img: /assets/GraphicsOpengl.png
 img_alt: A screeenshot from my OpenGL Graphics Demo
 description: |
@@ -35,5 +35,5 @@ but I only had a vague idea of how it worked. The lessons I have gained from wri
 will be useful for the rest of my career in games.
 
 ## Links:
-<a href="https://youtu.be/KBQpRPWagl8"> Video Recording </a>
+<a href="https://youtu.be/KBQpRPWagl8"> Video Recording </a> <br>
 <a href="https://github.com/puffledude/GraphicsTutorials-GLTF-Coursework"> Github repo </a>
