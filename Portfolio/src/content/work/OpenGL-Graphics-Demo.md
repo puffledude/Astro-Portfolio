@@ -11,6 +11,13 @@ tags:
   
 ---
 ## Experimenting with OpenGL:
+### Links:
+<iframe width="600" height="400" src="https://www.youtube.com/embed/I7w-LpBo-wQ" title="CSC8502 Opengl Coursework Scene" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+
+
+<a href="https://github.com/puffledude/GraphicsTutorials-GLTF-Coursework"> Github repo </a>
+
 
 ### What I did?
 This project was my first introduction into using OpenGL. 
@@ -34,6 +41,3 @@ OpenGL had been somewhat of a mystery to me up until this point. I knew of it fr
 but I only had a vague idea of how it worked. The lessons I have gained from writing my own shaders and gpu code
 will be useful for the rest of my career in games.
 
-## Links:
-<a href="https://youtu.be/KBQpRPWagl8"> Video Recording </a> <br>
-<a href="https://github.com/puffledude/GraphicsTutorials-GLTF-Coursework"> Github repo </a>

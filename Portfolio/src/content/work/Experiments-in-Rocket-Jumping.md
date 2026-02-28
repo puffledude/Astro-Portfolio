@@ -12,6 +12,13 @@ tags:
   - FPS
 ---
 ## My first true foray into the Unity Game Engine
+### Links:
+<iframe width="600" height="400" src="https://www.youtube.com/embed/WlGH0trTcgs" title="Experiments in Rocket Jumping Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+Repository including original project files: <br> 
+<a href="https://drive.google.com/file/d/1YfIeV2vwaOtXMjuE-vZ3XJlv4o_KFtEk/view?usp=sharing">Project Files</a>
+<br> If you wish to try the game, it is best experienced built using the build preset in the repo.
+
+
 
 ### Why was this made?
 
@@ -31,8 +38,3 @@ together a large amount of basic concepts such as raycasting. Further more, the 
 some major problems with my design upon submission. Firstly, the rocket jump was hard to time so chaining jumps together wasn't as seemless as I envsioned. Secondly, I made some levels far
 larger than they needed to be. My takeaway from this was to focus on quality over quantity where ever possible.
 
-### Links:
-Repository including original project files: <br> 
-<a href="https://drive.google.com/file/d/1YfIeV2vwaOtXMjuE-vZ3XJlv4o_KFtEk/view?usp=sharing">Project Files</a>
-<br> If you wish to try the game, it is best experienced built using the build preset in the repo.
-<br> <a href = "https://youtu.be/WlGH0trTcgs"> Demo Video </a>

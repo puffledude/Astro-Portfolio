@@ -12,6 +12,8 @@ tags:
   - TRPG
 ---
 ## The Dissertation
+### Links:
+<a href="https://drive.google.com/file/d/15bvqeF9LHzck9vFijJtKDcvTj2oxqvnI/view?usp=sharing"> Dissertation project files</a>
 ### What did I make?
 For my dissertation, I created a roguelike turn-based tactical JRPG style game, where the enemies would change
 depending on the weapons of the party. At the begining of each round, the players party spawns at the bottom of the level. From here
@@ -38,5 +40,3 @@ to ensure I keep on track.
 - Scope Creep: When making games start small and work up from a solid base. If I realised I didn't have as much time as I thought,
 I probably wouldn't have gone about designing the game the way I did. E.g Set levels instead of randomised or simpler combat.
 
-### Links:
-<a href="https://drive.google.com/file/d/15bvqeF9LHzck9vFijJtKDcvTj2oxqvnI/view?usp=sharing"> Dissertation project files</a>
