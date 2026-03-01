@@ -13,7 +13,7 @@ tags:
 ## Physics and OpenGL
 ### Links:
 <iframe width="600" height="400" src="https://www.youtube.com/embed/JY8awJ566z8" title="CSC8503 Coursework runthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<a href = "https://github.com/puffledude/OpenGL-with-Physics-Coursework/settings"> Github </a>
+<a href = "https://github.com/puffledude/OpenGL-with-Physics-Coursework"> Github </a>
 
 
 
